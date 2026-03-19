@@ -121,9 +121,46 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground text-[15px] leading-relaxed;
   }
   html {
     @apply font-sans;
+  }
+}
+
+/* Scrollbar styling */
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #7c3aed;
+  border-radius: 9999px;
+}
+
+* {
+  scrollbar-color: #7c3aed transparent;
+  scrollbar-width: thin;
+}
+
+@keyframes prism-shimmer {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+@keyframes prism-progress {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
   }
 }
