@@ -55,12 +55,12 @@ Prism is an open-source AI copilot that routes every message to the most capable
 
 ### Prerequisites
 - Node.js 18+
-- A running [Prism Backend](https://github.com/your-username/prism-backend)
+- A running [Prism Backend](https://github.com/NorthCommits/Prism-backend)
 - A Supabase project
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/prism-frontend.git
+git clone https://github.com/NorthCommits/prism-frontend.git
 cd prism-frontend
 ```
 
@@ -174,7 +174,7 @@ And update Supabase Auth URL configuration with your production URL so magic lin
 
 ## Backend
 
-This frontend connects to the [Prism Backend](https://github.com/your-username/prism-backend). Make sure it's running before starting the frontend.
+This frontend connects to the [Prism Backend](https://github.com/NorthCommits/prism-backend). Make sure it's running before starting the frontend.
 
 The backend handles:
 - Intelligent model routing (GPT-4o-mini router)
@@ -211,7 +211,7 @@ Contributions are welcome! Please feel free to open an issue or submit a pull re
 
 ## Related
 
-- [Prism Backend](https://github.com/your-username/prism-backend) — The FastAPI backend powering Prism
+- [Prism Backend](https://github.com/NorthCommits/prism-backend) — The FastAPI backend powering Prism
 
 ---
 
@@ -221,4 +221,4 @@ MIT License — feel free to use this in your own projects.
 
 ---
 
-<p align="center">Built with ❤️ by <a href="https://github.com/your-username">Swapnil Bhattacharya</a></p>
+<p align="center">Built with ❤️ by <a href="https://github.com/NorthCommits">Swapnil Bhattacharya</a></p>
